@@ -1,5 +1,11 @@
-#include <stdio.h>
-int main()
-{
-    printf("hello how r u?") ;
+#include <iostream>
+using namespace std;
+int main() {
+    int a;
+    cin >> a;
+    for (int i = 0; i < a; i++){
+        printf("%d",i);
+    }
+
+    return 0;
 }
